@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'AcuminPro';
+    src: url('../fonts/Acumin-RPro.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'AcuminPro', sans-serif;
+    background-color: #f2f2f2; /* Slightly darker body */
+    color: #333333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    color: #333333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.site-header .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 700; /* 🎯 Light font weight */
+    letter-spacing: 0.5px; /* Optional: elegant spacing */
+    font-family: 'Acumin Pro', sans-serif; /* Make sure Acumin Pro is loaded */
+}
+
+
+.nav a:hover {
+    color: #555555;
+    text-decoration: underline;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.info-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.action-buttons .btn {
+    background-color: #002f6c;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.action-buttons .btn:hover {
+    background-color: #00509e;
+}
+
+/* Form Section */
+.form-section,
+.signup-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.form-section h2,
+.signup-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #555555;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fafafa;
+}
+form button {
+    width: auto; /* Optional: prevents it from taking full width */
+    margin-top: 10px;
+    background-color: #002f6c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #001f4d; /* Slight border for edge */
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), inset -1px -1px 2px rgba(255,255,255,0.1);
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+form button:hover {
+    background-color: #0040a0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2), inset 1px 1px 1px rgba(255,255,255,0.2);
+}
+
+
+.error {
+    color: #ff0000;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #ffffff;
+    color: #333333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+}
