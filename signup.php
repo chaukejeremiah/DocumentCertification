@@ -44,3 +44,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
 </section>
 <?php include 'includes/footer.php'; ?>
+
+//document certification
