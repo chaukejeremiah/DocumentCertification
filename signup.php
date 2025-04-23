@@ -45,4 +45,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </section>
 <?php include 'includes/footer.php'; ?>
 
-//document certification
